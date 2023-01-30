@@ -16,7 +16,7 @@ class School {
 public:
 	void RUN();
 	School(sign_up_rules* _rules);
-	~School(){};
+	~School();
 	bool is_c_code_exists(string code);
 	bool is_s_id_exists(string _id);
 	bool is_student_already_in_class(Student* s, Class* c);

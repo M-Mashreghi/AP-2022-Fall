@@ -267,3 +267,16 @@ void School::RUN(){
 		call_app_functions(command);
 	}
 }
+
+School::~School(){
+delete rules;
+for (Course_unit_request* CUR : CURs)
+    delete CUR;
+CURs.clear();
+for (Student* student : students)
+    delete student;
+students.clear();
+for (Class* clas : classes)
+    delete clas;
+classes.clear();
+}
