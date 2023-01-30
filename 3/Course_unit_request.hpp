@@ -4,7 +4,7 @@
 #include <cstdlib>
 #include <vector>
 #include <utility>
-
+#include <memory>
 
 #include "Student.hpp"
 #include "Class.hpp"
@@ -24,7 +24,6 @@ public:
 	string get_c_title_in_re();
 	int get_c_cap_in_re();
 	bool check_status();
-
 private:
 	Student* _student;
 	Class* _clas;
