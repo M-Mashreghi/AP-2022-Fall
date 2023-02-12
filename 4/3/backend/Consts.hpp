@@ -1,0 +1,63 @@
+#pragma once
+#include <string>
+#include <vector>
+using namespace std;
+
+extern const char CSV_DELIMITER;
+extern const char COMMAND_DELIMITER;
+extern const string USERNAME;
+extern const string PASSWORD;
+extern const string ROLE;
+extern const string CITY;
+extern const int  OUTSIDE_the_city;
+extern const int  INSIDE_the_city;
+extern const string NOT_FOUND;
+extern const string STRING_NULL;
+extern const string HIGHEST_PRICE;
+extern const string LOWEST_PRICE;
+extern const  string BUYER;
+extern const  string SELLER;
+extern const  string PERMISSION_DENIED;
+extern const  string EMPTY;
+extern const string BAD_REQUEST;
+extern const string OK;
+extern const int LEAST_prtice;
+extern const string BUYER;
+extern const string SELLER ;
+extern const string PERMISSION_DENIED ;
+extern const string EMPTY;
+extern const int LEAST_prtice ;
+extern const string BAD_REQUEST;
+extern const string OK;
+extern const string CMD_DELIM;
+
+extern const string DELETE;
+extern const string PUT;
+extern const string SignUp;
+extern const string LOGIN;
+extern const string LOGOUT;
+extern const string INCREASE_CREDIT;
+extern const string WALLET_BALANCE;
+extern const string LIST_ITEM;
+extern const string BUY_ITEM;
+extern const string LIST_PURCHASED;
+extern const string REVENUE;
+extern const string LIST_TRANSACTIONS;
+extern const string REFUND;
+extern const string USERNAME;
+extern const string PASSWORD;
+extern const string ROLE;
+extern const string CITY;
+extern const string ITEM;
+extern const string ADD_ITEM;
+extern const string ITEM_QUANTITY;
+extern const string ITEM_PRICE;
+extern const string LIST_ITEMS ;
+extern const string AMOUNT;
+extern const int FILTERS_COUNT;
+constexpr int MIN_RATING_SCORE = 0;
+constexpr int MIN_RATING_SCORE_FILTER = 0;
+constexpr int MAX_RATING_SCORE = 10;
+constexpr int MIN_PRICE_SCORE = 0;
+constexpr int MAX_PRICE_SCORE = 50000;
+extern const vector<string> known_categories;
